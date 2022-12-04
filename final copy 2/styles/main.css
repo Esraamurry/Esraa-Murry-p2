@@ -1,0 +1,321 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: rgba(0, 0, 0, 0.966);
+}
+body {
+	font-family: kanit-black, Tahoma, sans-serif, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 1400px;
+    margin: 0 auto;
+    border: 0px solid #ffffff;
+    background-color: #f0ebe4;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+
+
+/* the styles for the header */
+header img {
+	float: center;
+	padding: 0px 0px 0px 0px;
+	width: 1380px;
+	height: 500px;
+	border: 10px solid rgb(201, 238, 177);
+}
+header {
+	padding: 0em 0em 5em 0em;
+	border-bottom: 50px solid #225535;
+	background-image: linear-gradient(
+	    30deg, #1e3621 0%, #496148 30%, rgb(28, 46, 32) 50%, #3a2408 80%, #856f54 100%);
+}
+
+a:focus, a:hover {
+	font-style: italic;
+}
+header h1 {
+    font-size:300%;
+    font-style: oblique;
+    color:rgba(43, 126, 76, 0.849);
+    text-align: center;
+    text-shadow: 3px 3px 4px rgb(5, 1, 1);
+}
+header h2 {
+	font-size:200%;
+    font-style: oblique;
+    color:rgba(121, 163, 124, 0.849);
+    text-align: center;
+    text-shadow: 5px 3px 5px rgb(20, 17, 15);
+}
+
+
+
+/* the styles for the footer */
+footer {
+	background-color: #2b3d26;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: rgba(209, 245, 200, 0.774);
+	padding: 2em 0;
+	font-weight: bolder;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* CONTACT FORM CSS CODE */
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+input, select, textarea {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
+#buttons input {
+	width: 7em;
+	color:#18422cf6
+	
+}
+fieldset {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+legend {
+    color: rgb(40, 78, 30);
+    font-weight: bold;
+    font-size: 120%;
+    margin-bottom: .5em;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+input:required:invalid {
+    background-image: url(../images/required.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+input:focus:invalid {
+    background-image: url(../images/invalid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+input:required:valid {
+    background-image: url(../images/valid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+
+section h2{
+	color: #93b88c;
+}
+section h3{
+	color: #f7ead7;
+}
+section p{
+	color: #b3a083;
+	font-weight: bold;
+}
+
+
+/* CoolSection desig*/
+
+#slider{
+	height: 600px;
+	border: 10px solid rgb(0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+  }
+  
+  .container{
+	width: 1600px;
+	margin: auto;
+  }
+  
+  .subcontainer{
+	width: 85%;
+	margin: auto;
+  }
+  
+  .controller{
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .previous, .next{
+	padding: 3px;
+	width: 30px;
+	cursor: pointer;
+	border-radius: 50%;
+	outline: none;
+	transition: 0.7s ease-in-out;
+	border: 3px solid white;
+	background-color: #17361e;
+	box-shadow: 0 0 5px #bbb;
+  }
+  
+  .previous:hover, .next:hover{
+	border: 3px solid rgb(78, 78, 78);
+  }
+  
+  #controls i{
+	color: white;
+	font-size: 1rem;
+  }
+  
+  .slide-img{
+	width: 100%;
+	height: 275px;
+	border-radius: 5px;
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+  }
+  
+  .slide-img:hover{
+	box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.7) inset;
+  }
+  
+  .slide-img a{
+	opacity: 0;
+	text-decoration: none;
+	transform: scale(0);
+	transition: 0.8s;
+	font-size: 1.5rem;
+	color: white;
+  }
+  
+  .slide-img:hover a{
+	opacity: 1;
+	transform: scale(1);
+  }
+  
+  .img-1{ 
+	 background-image: url(file:///Users/esraamurry/Desktop/Esraa-Murry-p2/final%20copy%202/images/CROCHETWEB.jpeg)
+  }
+  .img-2{
+	background-image: url(file:///Users/esraamurry/Desktop/Esraa-Murry-p2/final%20copy%202/images/PLANTROOMWEB.jpeg);
+  }
+  .img-3{
+	background-image: url(file:///Users/esraamurry/Desktop/Esraa-Murry-p2/final%20copy%202/images/IMG_8776-1.jpg);
+  }
+  .img-4{
+	background-image: url(file:///Users/esraamurry/Desktop/Esraa-Murry-p2/final%20copy%202/images/Latteartsub.jpeg);
+  }
+  .img-5{
+	background-image: url(file:///Users/esraamurry/Desktop/Esraa-Murry-p2/final%20copy%202/images/RoomaestheticWeb.jpeg);
+  }
+  
+  @media(max-width:1600px){
+	.container{
+	  width: 100%;
+	}
+  }
+  
+  
+
+
+
+
+/* the styles for the section 
+section {
+	width: 725px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+
+section h2 {
+	color: #191f12;
+    font-style: italic;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+section h3 {
+    color: #243316;
+    font-size: 130%;
+    padding: .5em 0 .25em;
+
+}
+
+section p {
+	padding-bottom: 2em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+*/
+
+/*the styles for the main
+
+main h2 {
+	font-size:250%;
+    font-style: italic;
+    color:rgba(59, 43, 13, 0.849);
+    text-align: center;
+    text-shadow: 5px 3px 5px rgb(110, 88, 58);
+}
+main h3 {
+	font-size:150%;
+    font-style: oblique;
+    color:rgba(63, 52, 30, 0.849);
+    text-align: left;
+    text-shadow: 1px 4px 6px rgb(66, 70, 66);
+}
+
+main ul {
+	padding: 0px 0px 30px 30px;
+	
+
+	
+	
+}
+main li {
+	padding-bottom: .5em;
+	
+	
+}
+*/
+
+
+/* the styles for the aside */
+
+aside {
+	border-top: 50px ridge #d4bd94;
+}
+/*
+aside {
+	width: 200px;
+	float: right;
+	padding: 0px 50px 1px 4px;
+}
+aside h2 {
+	color: #664736ef;
+	font-size: 160%;
+	padding: .5em 0 .5em 0;
+}
+aside h3 {
+	font-size: 130%;
+	padding-bottom: .25em;
+	padding-top: 0px;
+}
+iframe {
+	float: right;
+	padding: 20% 0% 0% 0%;
+}
+*/
